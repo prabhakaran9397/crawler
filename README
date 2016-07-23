@@ -1,6 +1,12 @@
                 Wikitechy Crawler
 ====================================================
 
-Execute as ```bash ex.bash 10 prabhakaran qwerty931997```
+Execute as 
+```
+bash ex.bash 10 prabhakaran qwerty931997
+```
 
-To kill all ```sh && sudo kill -9 `pgrep bash````
+To kill all
+```
+sh && sudo kill -9 `pgrep bash`
+```
