@@ -3,10 +3,10 @@
 
 Execute as 
 ```
-bash ex.bash 10 prabhakaran qwerty931997
+bash ex.bash <number of points per 30 seconds> <email id> <password>
 ```
 
 To kill all
 ```
-sh && sudo kill -9 `pgrep bash`
+bash ex.bash -k 
 ```
