@@ -10,7 +10,7 @@ if [ $# -ne 3 ]; then
 fi
 sed -i "s/email/$2/g" `pwd`/e0.bash
 sed -i "s/dalda/$3/g" `pwd`/e0.bash
-sed -i "s/\@/\%40/g" `pwd`/e0.bash
+sed -i "s/@/%40/g" `pwd`/e0.bash
 for i in `seq 1 $1`;
 do
 	file="p"$i."bash"
@@ -19,5 +19,6 @@ do
 	sed -i "s/c0/$rep/g" `pwd`/$file
 	bash $file&
 done
+sed -i "s/%40/@/g" `pwd`/e0.bash
 sed -i "s/$2/email/g" `pwd`/e0.bash
 sed -i "s/$3/dalda/g" `pwd`/e0.bash
