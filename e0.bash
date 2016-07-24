@@ -1,5 +1,5 @@
 #!/bin/bash
-curl -s -c c0.txt --data 'username=email&password=dalda=' http://wikitechy.com/login.php \
+curl -s -c c0.txt --data 'username=sivaramkumar96%40yahoo.com&password=dalda&login=' http://wikitechy.com/login.php \
 > /dev/null
 
 while [ 1 ]; do
